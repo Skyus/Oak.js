@@ -1,0 +1,124 @@
+#editor_area {
+  background: #333;
+  color: #eee;
+}
+
+#editor_area .ace_gutter {
+  background: #444;
+  color: #AAA;
+}
+
+#editor_area .ace_keyword {
+  font-weight: bold;
+}
+
+#editor_area .ace_string {
+  color: #D14;
+}
+
+#editor_area .ace_variable.ace_class {
+  color: teal;
+}
+
+#editor_area .ace_constant.ace_numeric {
+  color: #099;
+}
+
+#editor_area .ace_constant.ace_buildin {
+  color: #0086B3;
+}
+
+#editor_area .ace_support.ace_function {
+  color: #0086B3;
+}
+
+#editor_area .ace_comment {
+  color: #998;
+  font-style: italic;
+}
+
+#editor_area .ace_variable.ace_language {
+  color: #0086B3;
+}
+
+#editor_area .ace_paren {
+  font-weight: bold;
+}
+
+#editor_area .ace_boolean {
+  font-weight: bold;
+}
+
+#editor_area .ace_string.ace_regexp {
+  color: #009926;
+  font-weight: normal;
+}
+
+#editor_area .ace_variable.ace_instance {
+  color: teal;
+}
+
+#editor_area .ace_constant.ace_language {
+  font-weight: bold;
+}
+
+#editor_area .ace_cursor {
+  color: black;
+}
+
+#editor_area.ace_focus .ace_marker-layer .ace_active-line {
+  background: #ffffcc;
+}
+
+#editor_area .ace_marker-layer .ace_active-line {
+  background: whitesmoke;
+}
+
+#editor_area .ace_marker-layer .ace_selection {
+  background: #b5d5ff;
+}
+
+#editor_area .ace-github.ace_multiselect .ace_selection.ace_start {
+  -webkit-box-shadow: 0 0 3px 0px white;
+          box-shadow: 0 0 3px 0px white;
+}
+
+#editor_area .ace-github.ace_nobold .ace_line > span {
+  font-weight: normal !important;
+}
+
+#editor_area .ace_marker-layer .ace_step {
+  background: #fcff00;
+}
+
+#editor_area .ace_marker-layer .ace_stack {
+  background: #a4e565;
+}
+
+#editor_area .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid silver;
+}
+
+#editor_area .ace_gutter-active-line {
+  background-color: rgba(0, 0, 0, 0.07);
+}
+
+#editor_area .ace_marker-layer .ace_selected-word {
+  background: #fafaff;
+  border: 1px solid #c8c8fa;
+}
+
+#editor_area .ace_invisible {
+  color: #BFBFBF;
+}
+
+#editor_area .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8;
+}
+
+#editor_area .ace_indent-guide {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd1/w11/gAAAABJRU5ErkJggg==") right repeat-y;
+}
+/*# sourceMappingURL=theme_ace_dark.css.map */

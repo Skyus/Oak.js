@@ -1,0 +1,620 @@
+#editor_area {
+  background: #000;
+  color: #fff;
+}
+
+#editor_area .ace_gutter {
+  background: #000;
+  color: #fff;
+}
+
+#editor_area .ace_keyword {
+  font-weight: bold;
+}
+
+#editor_area .ace_string {
+  color: #fff;
+}
+
+#editor_area .ace_variable.ace_class {
+  color: #fff;
+}
+
+#editor_area .ace_constant.ace_numeric {
+  color: #fff;
+}
+
+#editor_area .ace_constant.ace_buildin {
+  color: #fff;
+}
+
+#editor_area .ace_support.ace_function {
+  color: #fff;
+}
+
+#editor_area .ace_comment {
+  color: #fff;
+  font-style: italic;
+}
+
+#editor_area .ace_variable.ace_language {
+  color: #fff;
+}
+
+#editor_area .ace_paren {
+  font-weight: bold;
+}
+
+#editor_area .ace_boolean {
+  font-weight: bold;
+}
+
+#editor_area .ace_string.ace_regexp {
+  color: #fff;
+  font-weight: normal;
+}
+
+#editor_area .ace_variable.ace_instance {
+  color: #fff;
+}
+
+#editor_area .ace_constant.ace_language {
+  font-weight: bold;
+}
+
+#editor_area .ace_cursor {
+  color: black;
+}
+
+#editor_area.ace_focus .ace_marker-layer .ace_active-line {
+  background: #000;
+}
+
+#editor_area .ace_marker-layer .ace_active-line {
+  background: #000;
+}
+
+#editor_area .ace_marker-layer .ace_selection {
+  background: #000;
+}
+
+#editor_area .ace-github.ace_multiselect .ace_selection.ace_start {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#editor_area .ace-github.ace_nobold .ace_line > span {
+  font-weight: normal !important;
+}
+
+#editor_area .ace_marker-layer .ace_step {
+  background: #000;
+}
+
+#editor_area .ace_marker-layer .ace_stack {
+  background: #000;
+}
+
+#editor_area .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid #fff;
+}
+
+#editor_area .ace_gutter-active-line {
+  background-color: #000;
+}
+
+#editor_area .ace_marker-layer .ace_selected-word {
+  background: #000;
+  border: 1px solid #fff;
+}
+
+#editor_area .ace_invisible {
+  color: #BFBFBF;
+}
+
+#editor_area .ace_print-margin {
+  width: 1px;
+  background: #000;
+}
+
+#editor_area .ace_indent-guide {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd1/w11/gAAAABJRU5ErkJggg==") right repeat-y;
+}
+
+.navigation {
+  background-color: #000;
+}
+
+.navigation li {
+  background-color: #000;
+  color: #fff;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+}
+
+.navigation li:hover {
+  background-color: #000;
+}
+
+.conversion_output {
+  background: #000;
+  border: 2px solid #000;
+  color: #fff;
+}
+
+.panel_container {
+  background-color: #000;
+  color: #fff;
+}
+
+.status_bar {
+  background-color: #000;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.95);
+}
+
+.editor_area {
+  height: calc(100% - 1.8rem - 4px) !important;
+}
+
+.page_tabs {
+  background-color: #000;
+  padding-top: 4px !important;
+}
+
+.page_tabs li {
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-top: 3px solid #000;
+}
+
+.page_tabs li span {
+  vertical-align: middle;
+}
+
+.page_tabs li.selected {
+  background-color: #000;
+  color: #fff;
+  border-top-color: #000;
+}
+
+.page_tabs div {
+  background-image: url(../images/icons/close.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: 0.5s ease opacity;
+  transition: 0.5s ease opacity;
+  opacity: 0.3;
+}
+
+.page_tabs div:hover {
+  opacity: 1;
+}
+
+.panel_registers .reg_assigned {
+  background-color: #000;
+  color: #fff;
+}
+
+.panel_registers .reg_assigned li:nth-child(even) {
+  background-color: #000;
+  color: #fff;
+}
+
+.panel_registers .reg_new {
+  background-color: #000;
+  color: #fff;
+}
+
+.panel_registers .reg_new li:nth-child(even) {
+  background-color: #000;
+  color: #fff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tr {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+table tr td {
+  padding: 0.3rem;
+}
+
+table tbody tr:nth-child(odd) {
+  background: #000;
+  color: #fff;
+}
+
+table tbody tr:nth-child(even) {
+  background: #000;
+  color: #fff;
+}
+
+.panel_tabs {
+  background-color: #000;
+}
+
+.panel_tabs li {
+  background-color: #000;
+  color: #fff;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  cursor: pointer;
+  border-top: 3px solid #000;
+  font-size: 0.5rem;
+}
+
+.panel_tabs li.selected {
+  background-color: #000;
+  color: #fff;
+  border-top-color: #000;
+}
+
+.button {
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  background: #000;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #000;
+  color: #fff;
+}
+
+.panel_drag {
+  background: #fff;
+}
+
+.oak_logo {
+  background-image: url(/images/icon.png);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.5s ease background-size;
+  transition: 0.5s ease background-size;
+}
+
+.oak_logo:hover {
+  background-size: 55%;
+}
+
+.buttons_right button {
+  background-color: #000;
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+  cursor: pointer;
+}
+
+.buttons_right button:hover {
+  background-color: #000;
+}
+
+.assemble {
+  background-image: url(/images/assemble.png);
+}
+
+.simulate:not(.assemble_ready) {
+  background-image: url(/images/play.png);
+}
+
+.simulate_step:not(.assemble_ready) {
+  background-image: url(/images/stepByStep.png);
+}
+
+.simulate.assemble_ready {
+  background-image: url(/images/playAssemble.png);
+}
+
+.simulate_step.assemble_ready {
+  background-image: url(/images/stepByStepAssemble.png);
+}
+
+.simulate_prevent_input {
+  opacity: 0.2;
+}
+
+.blinker {
+  -webkit-animation: blinker 0.5s ease-in-out infinite;
+          animation: blinker 0.5s ease-in-out infinite;
+}
+
+.running_console {
+  opacity: 0.5;
+  font-style: italic;
+}
+
+@-webkit-keyframes blinker {
+  50% {
+    opacity: 0.25;
+  }
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0.25;
+  }
+}
+
+.no_tabs {
+  background: #000;
+}
+
+.no_tabs h2 {
+  color: #fff;
+}
+
+.no_tabs p {
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.no_tabs .button {
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.no_tabs .button:hover {
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.settings_container {
+  width: 90%;
+  max-width: 900px;
+  max-height: 90vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background: #000;
+  border-radius: 8px;
+  overflow-y: auto;
+}
+
+.settings_container h2 {
+  margin: 0;
+  padding: 1rem;
+  vertical-align: top;
+  background: #000;
+  color: #fff;
+}
+
+.settings_container thead tr {
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+.settings_container .overlay_contents {
+  margin: 1rem;
+}
+
+.drop_down {
+  border-bottom-right-radius: 8px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.drop_down li {
+  background-color: #eee;
+  border-left: 4px solid #000;
+  color: #999;
+}
+
+.drop_down li:hover {
+  background-color: #ddd;
+  border-left-color: #000;
+  color: #666;
+}
+
+.drop_down li:last-of-type {
+  border-bottom-right-radius: 8px;
+}
+
+.panel {
+  font-size: 0.7rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.console_output {
+  color: #fff;
+}
+
+.console_success {
+  color: #fff;
+}
+
+.console_error {
+  color: #fff;
+}
+
+.panel_side .panel_tabs {
+  padding-top: 4px;
+}
+
+.key_bar {
+  background-color: #000;
+  border-radius: 8px;
+}
+
+.key_bar span {
+  display: inline-block;
+  vertical-align: top;
+  background: #000;
+  border-radius: 8px;
+  padding: 0.4rem;
+  color: #fff;
+  font-size: 0.6rem;
+  margin: 0.2rem;
+  text-transform: uppercase;
+}
+
+.input_group, .select_group {
+  position: relative;
+  font-size: 30px;
+  width: calc(100% - 0.4rem);
+  margin: 0.2rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.input_group .group_label, .select_group .group_label {
+  font-size: 0.55rem;
+  top: 0.2rem;
+  opacity: 1;
+  position: absolute;
+  pointer-events: none;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+  color: #fff;
+}
+
+.rtl .input_group .group_label, .rtl .select_group .group_label {
+  right: 2rem;
+}
+
+body:not(.rtl) .input_group .group_label, body:not(.rtl) .select_group .group_label {
+  left: 2rem;
+  top: 0.32rem;
+}
+
+.input_group input, .input_group select, .select_group input, .select_group select {
+  padding: 0.6rem;
+  padding-top: 1.0rem;
+  padding-bottom: 0.4rem;
+  font-size: 0.7rem;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+  border: 2px solid #000;
+  color: #fff;
+  background-color: #000;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.input_group input:hover, .input_group select:hover, .select_group input:hover, .select_group select:hover {
+  background-color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+
+.input_group input:focus, .input_group select:focus, .select_group input:focus, .select_group select:focus {
+  background-color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+
+body.rtl .input_group input, body.rtl .input_group select, body.rtl .select_group input, body.rtl .select_group select {
+  padding-right: 2.00rem;
+}
+
+body:not(.rtl) .input_group input, body:not(.rtl) .input_group select, body:not(.rtl) .select_group input, body:not(.rtl) .select_group select {
+  padding-left: 2.0rem;
+}
+
+.input_group input, .select_group input {
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  border-radius: 8px;
+}
+
+.rtl .input_group input, .rtl .select_group input {
+  background-position: calc(100% - 0.6rem) center;
+}
+
+body:not(.rtl) .input_group input, body:not(.rtl) .select_group input {
+  background-position: 0.6rem center;
+}
+
+.input_group select, .select_group select {
+  border-radius: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-size: 0.6rem, 1rem;
+}
+
+.rtl .input_group select, .rtl .select_group select {
+  background-position: 0.6rem center, calc(100% - 0.5rem) center;
+}
+
+body:not(.rtl) .input_group select, body:not(.rtl) .select_group select {
+  background-position: calc(100% - 0.5rem) center, 0.6rem center;
+}
+
+.input_group input:placeholder-shown, .input_group select:invalid, .select_group input:placeholder-shown, .select_group select:invalid {
+  padding-top: 1rem;
+  padding-bottom: 0.4rem;
+}
+
+.input_group input:placeholder-shown:not(:hover):not(:focus) + .group_label, .input_group select:invalid + .group_label, .select_group input:placeholder-shown:not(:hover):not(:focus) + .group_label, .select_group select:invalid + .group_label {
+  font-size: 0.7rem;
+  right: 2rem;
+  top: 0.8rem;
+}
+
+.input_group ::-webkit-input-placeholder, .select_group ::-webkit-input-placeholder {
+  color: transparent;
+  opacity: 0;
+}
+
+.input_group :-ms-input-placeholder, .select_group :-ms-input-placeholder {
+  color: transparent;
+  opacity: 0;
+}
+
+.input_group ::-ms-input-placeholder, .select_group ::-ms-input-placeholder {
+  color: transparent;
+  opacity: 0;
+}
+
+.input_group ::placeholder, .select_group ::placeholder {
+  color: transparent;
+  opacity: 0;
+}
+
+.input_group :-ms-input-placeholder, .select_group :-ms-input-placeholder {
+  color: transparent;
+}
+
+.input_group ::-ms-input-placeholder, .select_group ::-ms-input-placeholder {
+  color: transparent;
+}
+
+.input_group select:invalid, .select_group select:invalid {
+  color: transparent;
+}
+
+* {
+  font-family: 'Consolas', "Lucida Console", Monaco, monospace !important;
+}
+/*# sourceMappingURL=theme_dos.css.map */

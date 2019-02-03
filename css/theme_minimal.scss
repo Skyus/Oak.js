@@ -1,0 +1,199 @@
+#editor_area {
+    background: $background;
+    color: $foreground;
+
+    .ace_gutter {
+        background: $background;
+        color: $foreground;
+    }
+
+    .ace_keyword {
+        font-weight: bold;
+    }
+    
+    .ace_string {
+        color: $foreground;
+    }
+
+    .ace_variable.ace_class {
+        color:$foreground;
+    }
+    
+    .ace_constant.ace_numeric {
+        color: $foreground;
+    }
+
+    .ace_constant.ace_buildin {
+        color: $foreground;
+    }
+
+    .ace_support.ace_function {
+        color: $foreground;
+    }
+    
+    .ace_comment {
+        color: $foreground;
+        font-style: italic;
+    }
+    
+    .ace_variable.ace_language  {
+        color: $foreground;
+    }
+    
+    .ace_paren {
+        font-weight: bold;
+    }
+    
+    .ace_boolean {
+        font-weight: bold;
+    }
+    
+    .ace_string.ace_regexp {
+        color: $foreground;
+        font-weight: normal;
+    }
+    
+    .ace_variable.ace_instance {
+        color: $foreground;
+    }
+    
+    .ace_constant.ace_language {
+        font-weight: bold;
+    }
+    
+    .ace_cursor {
+        color: black;
+    }
+    
+    &.ace_focus .ace_marker-layer .ace_active-line {
+        background: $background;
+    }
+    
+    .ace_marker-layer .ace_active-line {
+        background: $background;
+    }
+    
+    .ace_marker-layer .ace_selection {
+        background: $background;
+    }
+    
+    .ace-github.ace_multiselect .ace_selection.ace_start {
+        box-shadow: none;
+    }
+    
+    .ace-github.ace_nobold .ace_line > span {
+        font-weight: normal !important;
+    }
+    
+    .ace_marker-layer .ace_step {
+        background: $background;
+    }
+    
+    .ace_marker-layer .ace_stack {
+        background: $background;
+    }
+    
+    .ace_marker-layer .ace_bracket {
+        margin: -1px 0 0 -1px;
+        border: 1px solid $foreground;
+    }
+    
+    .ace_gutter-active-line {
+        background-color : $background;
+    }
+    
+    .ace_marker-layer .ace_selected-word {
+        background: $background;
+        border: 1px solid $foreground;
+    }
+    
+    .ace_invisible {
+        color: #BFBFBF
+    }
+    
+    .ace_print-margin {
+        width: 1px;
+        background: $background;
+    }
+    
+    .ace_indent-guide {
+        background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd1/w11/gAAAABJRU5ErkJggg==") right repeat-y;
+    }
+}
+
+$primary_color: $background;
+$primary_color_dark: $background;
+$primary_color_dark2: $background;
+$primary_color_text: $foreground;
+
+$panel_back_color: $background;
+$panel_color: $foreground;
+$border_color: $foreground;
+
+$tab_back: $panel_back_color;
+$tab_reg: $tab_back;
+$tab_reg_color: $panel_color;
+$tab_reg_border: $primary_color_dark;
+$tab_sel: $panel_back_color;
+$tab_sel_color: $tab_reg_color;
+$tab_sel_border: $primary_color;
+
+$table_back: $panel_back_color;
+$table_color: $panel_color;
+$table_alt_back: $table_back;
+$table_alt_color: $table_color;
+
+$table_done_back: $background;
+$table_done_color: $panel_color;
+$table_done_alt_back: $table_done_back;
+$table_done_alt_color: $table_done_color;
+
+$table_new_back: $background;
+$table_new_color: $panel_color;
+$table_new_alt_back: $table_new_back;
+$table_new_alt_color: $table_new_color;
+
+$settings_back: $panel_back_color;
+$radius: 8px;
+$shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+$shadow_hover: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+$shadow_transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+$label_color: $foreground;
+
+$input_text_color: $panel_color;
+$input_back: $panel_back_color;
+$input_border_color: $panel_back_color;
+
+$input_hover_text_color: $input_text_color;
+$input_hover_back: $input_back;
+$input_hover_border_color: $input_border_color;
+
+$input_focus_text_color: $input_text_color;
+$input_focus_back: $input_back;
+$input_focus_border_color: $input_border_color;
+
+$settings_title_text: $foreground;
+
+$conv_back: $primary_color;
+$conv_text_color: $primary_color_text;
+$conv_border_color: $primary_color_dark;
+
+$no_tab_back:   $panel_back_color;
+$no_tab_header: $foreground;
+$no_tab_text:   $panel_color;
+
+$button_text: $primary_color_text;
+$button_back: $primary_color;
+$button_hover_text: $button_text;
+$button_hover_back: $primary_color_dark2;
+
+$key_bar: $primary_color_dark;
+$key_back: $background;
+$key_text_color: $foreground;
+
+$console_output: $foreground;
+$console_success: $foreground;
+$console_fail: $foreground;
+
+@import "theme_template";

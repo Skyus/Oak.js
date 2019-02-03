@@ -1,1 +1,0 @@
-console.log(/[a-zA-Z]+\s*([A-Za-z0-9]+)\s*,\s*([A-Za-z0-9]+),\s*(-?[a-zA-Z0-9_]+)/.exec("  	addi	a1,a1,8"))
