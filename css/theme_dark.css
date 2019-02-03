@@ -168,8 +168,8 @@ table tbody tr:nth-child(even) {
 }
 
 .button.subbutton {
-  color: #526681;
-  border: 2px solid #526681;
+  color: #677f9f;
+  border: 2px solid #677f9f;
   background: transparent;
 }
 
@@ -331,6 +331,7 @@ table tbody tr:nth-child(even) {
 }
 
 .settings_container .button {
+  float: right;
   width: auto;
 }
 
@@ -439,6 +440,7 @@ body:not(.rtl) .input_group .group_label, body:not(.rtl) .select_group .group_la
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 3rem;
 }
 
 .input_group input:hover, .input_group select:hover, .select_group input:hover, .select_group select:hover {

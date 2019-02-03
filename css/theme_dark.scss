@@ -73,7 +73,7 @@ $console_output: rgb(122, 122, 122);
 $console_success: rgb(89, 128, 57);
 $console_fail: hsl(0, 38%, 36%);
 
-$altbutton: $button_back;
+$altbutton: lighten($button_back, 10%);
 $altbutton_hover: #fff;
 
 $overlay_container_border: none;
