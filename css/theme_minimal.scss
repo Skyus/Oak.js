@@ -202,3 +202,11 @@ $console_fail: $foreground;
 $overlay_container_border: $foreground 2px solid;
 
 @import "theme_template";
+
+.navigation {
+    border-bottom: 3px solid $foreground;
+}
+
+.grid {
+    height: calc(100% - 42px);
+}

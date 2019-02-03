@@ -680,6 +680,14 @@ body:not(.rtl) .input_group select, body:not(.rtl) .select_group select {
   width: auto;
 }
 
+.navigation {
+  border-bottom: 3px solid #0f0;
+}
+
+.grid {
+  height: calc(100% - 42px);
+}
+
 * {
   font-family: 'Consolas', "Lucida Console", Monaco, monospace !important;
 }
