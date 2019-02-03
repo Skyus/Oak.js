@@ -161,10 +161,24 @@ table {
     color: $button_text;
     border: none;
     background: $button_back;
+    border: 2px solid $button_back;
+    font-weight: bold;
     transition: 0.5s ease all;
     cursor: pointer;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
+
+    &.subbutton {
+        color: $altbutton;
+        border: 2px solid $altbutton;
+        background: transparent;
+    
+        &:hover {
+            background: transparent;
+            color: $altbutton_hover;
+            border-color: $altbutton_hover;
+        }
+    }
     
     &:hover {
         background: $button_hover_back;
@@ -302,6 +316,10 @@ table {
         margin: 1rem;
         font-family: 0.8rem;
         color: $panel_color;
+    }
+
+    .button {
+    	width: auto;
     }
 }
 
@@ -484,4 +502,23 @@ table {
     select:invalid {
         color: transparent
 	}
+}
+
+.cookie_screen {
+    padding: 2rem;
+    text-align: center;
+    color: $panel_color;
+
+    h3 {
+        font-size: 1.3rem;
+    }
+    
+    p {
+        padding: 1rem;
+        font-size: 1.0rem;
+    }
+
+    .button {
+        width: auto;
+    }
 }

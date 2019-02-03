@@ -183,10 +183,13 @@ $no_tab_back:   $panel_back_color;
 $no_tab_header: $foreground;
 $no_tab_text:   $panel_color;
 
-$button_text: $primary_color_text;
-$button_back: $primary_color;
+$button_text: $background;
+$button_back: $foreground;
 $button_hover_text: $button_text;
-$button_hover_back: $primary_color_dark2;
+$button_hover_back: $button_back;
+
+$altbutton: $foreground;
+$altbutton_hover: $foreground;
 
 $key_bar: $primary_color_dark;
 $key_back: $background;

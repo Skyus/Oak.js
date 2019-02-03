@@ -65,6 +65,9 @@ $button_back: $primary_color;
 $button_hover_text: lighten($button_text, 10%);
 $button_hover_back: $primary_color_dark2;
 
+$altbutton: $button_back;
+$altbutton_hover: darken($button_hover_back, 40%);
+
 $key_bar: $primary_color_dark;
 $key_back: #333;
 $key_text_color: #eee;

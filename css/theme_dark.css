@@ -158,11 +158,25 @@ table tbody tr:nth-child(even) {
   color: white;
   border: none;
   background: #526681;
+  border: 2px solid #526681;
+  font-weight: bold;
   -webkit-transition: 0.5s ease all;
   transition: 0.5s ease all;
   cursor: pointer;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-transform: uppercase;
+}
+
+.button.subbutton {
+  color: #526681;
+  border: 2px solid #526681;
+  background: transparent;
+}
+
+.button.subbutton:hover {
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
 }
 
 .button:hover {
@@ -314,6 +328,10 @@ table tbody tr:nth-child(even) {
   margin: 1rem;
   font-family: 0.8rem;
   color: #eee;
+}
+
+.settings_container .button {
+  width: auto;
 }
 
 .drop_down {
@@ -515,6 +533,25 @@ body:not(.rtl) .input_group select, body:not(.rtl) .select_group select {
 
 .input_group select:invalid, .select_group select:invalid {
   color: transparent;
+}
+
+.cookie_screen {
+  padding: 2rem;
+  text-align: center;
+  color: #eee;
+}
+
+.cookie_screen h3 {
+  font-size: 1.3rem;
+}
+
+.cookie_screen p {
+  padding: 1rem;
+  font-size: 1.0rem;
+}
+
+.cookie_screen .button {
+  width: auto;
 }
 
 #editor_area {
