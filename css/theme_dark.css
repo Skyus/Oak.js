@@ -156,7 +156,7 @@ table tbody tr:nth-child(even) {
 }
 
 .oak_logo {
-  background-image: url(/images/icon.png);
+  background-image: url(../images/icon.png);
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;
@@ -188,23 +188,23 @@ table tbody tr:nth-child(even) {
 }
 
 .assemble {
-  background-image: url(/images/assemble.png);
+  background-image: url(../images/assemble.png);
 }
 
 .simulate:not(.assemble_ready) {
-  background-image: url(/images/play.png);
+  background-image: url(../images/play.png);
 }
 
 .simulate_step:not(.assemble_ready) {
-  background-image: url(/images/stepByStep.png);
+  background-image: url(../images/stepByStep.png);
 }
 
 .simulate.assemble_ready {
-  background-image: url(/images/playAssemble.png);
+  background-image: url(../images/playAssemble.png);
 }
 
 .simulate_step.assemble_ready {
-  background-image: url(/images/stepByStepAssemble.png);
+  background-image: url(../images/stepByStepAssemble.png);
 }
 
 .simulate_prevent_input {
