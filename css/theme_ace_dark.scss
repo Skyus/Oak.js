@@ -12,7 +12,7 @@
     }
     
     .ace_string {
-        color: #D14;
+        color: #FF5C5C;
     }
 
     .ace_variable.ace_class {
@@ -65,16 +65,12 @@
         color: black;
     }
     
-    &.ace_focus .ace_marker-layer .ace_active-line {
-        background: rgb(255, 255, 204);
-    }
-    
     .ace_marker-layer .ace_active-line {
-        background: rgb(245, 245, 245);
+        background: rgba(255, 255, 128, 0.2) !important;
     }
     
     .ace_marker-layer .ace_selection {
-        background: rgb(181, 213, 255);
+        background: rgba(181, 213, 255, 0.2) !important;
     }
     
     .ace-github.ace_multiselect .ace_selection.ace_start {

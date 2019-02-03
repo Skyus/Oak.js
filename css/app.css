@@ -341,4 +341,11 @@ input[type=file] {
   -webkit-transition: 0.5s ease all;
   transition: 0.5s ease all;
 }
+
+.reset_defaults {
+  width: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 /*# sourceMappingURL=app.css.map */

@@ -1,3 +1,17 @@
+#root {
+      margin:  0;
+      padding: 0;
+      width:	 100vw;
+      height:  100vh;
+}
+  
+body {
+    margin:		0;
+    padding:		0;
+    overflow: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .navigation {
 	background-color: $primary_color;
     
@@ -42,18 +56,20 @@
     li {
         background-color: $tab_reg;
         color: $tab_reg_color;
-        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         cursor: pointer;
         border-top: 3px solid $tab_reg_border;
 
         span {
             vertical-align: middle;
+            font-size: 0.6rem;
         }
 
         &.selected {
             background-color: $tab_sel;
             color: $tab_sel_color;
             border-top-color: $tab_sel_border;
+            font-weight: bold;
         }
     }
 
@@ -101,7 +117,7 @@ table {
 		text-align: center;
 
 		td {
-			padding: 0.3rem;
+			padding: 0.5rem;
         }
     }
     
@@ -122,14 +138,15 @@ table {
     
 .panel_tabs {
     background-color: $tab_back;
-
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
     li {
         background-color: $tab_reg;
         color: $tab_reg_color;
         transition: 0.5s all ease;
         cursor: pointer;
         border-top: 3px solid $tab_reg_border;
-        font-size: 0.5rem;
+        font-size: 0.6rem;
 
         &.selected {
             background-color: $tab_sel;
@@ -146,6 +163,8 @@ table {
     background: $button_back;
     transition: 0.5s ease all;
     cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
     
     &:hover {
         background: $button_hover_back;
@@ -261,13 +280,16 @@ table {
     background: $settings_back;
     border-radius: 8px;
     overflow-y: auto;
+    border: $overlay_container_border;
     
     h2 {
         margin: 0;
+        margin-bottom: 1rem;
         padding: 1rem;
         vertical-align: top;
         background: $primary_color;
         color: $primary_color_text;
+        text-align: center;
     }
 
     thead tr {
@@ -278,6 +300,8 @@ table {
 
     .overlay_contents {
         margin: 1rem;
+        font-family: 0.8rem;
+        color: $panel_color;
     }
 }
 
@@ -303,8 +327,8 @@ table {
 }
 
 .panel {
-    font-size: 0.7rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8rem;
+    font-family: 'Consolas', 'Courier New', Courier, monospace;
 }
 
 .console_output {
@@ -356,6 +380,8 @@ table {
 		pointer-events: none;
         transition: 0.5s ease all;
         color: $label_color;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-transform: uppercase;
 		
 		.rtl & {
 			right: 2rem;
@@ -377,7 +403,8 @@ table {
         color: $input_text_color;
         background-color: $input_back;
         width: 100%;
-		box-sizing: border-box;
+        box-sizing: border-box;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 		&:hover {
 			background-color: $input_hover_text_color;

@@ -332,3 +332,10 @@ input[type=file] {
 	border-radius: $radius;
 	transition: 0.5s ease all;
 }
+
+.reset_defaults {
+	width: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+}

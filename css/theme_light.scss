@@ -73,5 +73,7 @@ $console_output: rgb(122, 122, 122);
 $console_success: rgb(89, 128, 57);
 $console_fail: hsl(0, 38%, 36%);
 
+$overlay_container_border: none;
+
 @import "theme_template";
 @import "theme_ace_light";

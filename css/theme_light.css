@@ -1,3 +1,17 @@
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .navigation {
   background-color: #74849a;
 }
@@ -44,19 +58,21 @@
 .page_tabs li {
   background-color: #dadada;
   color: #333;
-  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   cursor: pointer;
   border-top: 3px solid #67778e;
 }
 
 .page_tabs li span {
   vertical-align: middle;
+  font-size: 0.6rem;
 }
 
 .page_tabs li.selected {
   background-color: #f3f3f3;
   color: #666666;
   border-top-color: #74849a;
+  font-weight: bold;
 }
 
 .page_tabs div {
@@ -103,7 +119,7 @@ table tr {
 }
 
 table tr td {
-  padding: 0.3rem;
+  padding: 0.5rem;
 }
 
 table tbody tr:nth-child(odd) {
@@ -118,6 +134,7 @@ table tbody tr:nth-child(even) {
 
 .panel_tabs {
   background-color: #dadada;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .panel_tabs li {
@@ -127,7 +144,7 @@ table tbody tr:nth-child(even) {
   transition: 0.5s all ease;
   cursor: pointer;
   border-top: 3px solid #67778e;
-  font-size: 0.5rem;
+  font-size: 0.6rem;
 }
 
 .panel_tabs li.selected {
@@ -144,6 +161,8 @@ table tbody tr:nth-child(even) {
   -webkit-transition: 0.5s ease all;
   transition: 0.5s ease all;
   cursor: pointer;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 .button:hover {
@@ -272,14 +291,17 @@ table tbody tr:nth-child(even) {
   background: #f3f3f3;
   border-radius: 8px;
   overflow-y: auto;
+  border: none;
 }
 
 .settings_container h2 {
   margin: 0;
+  margin-bottom: 1rem;
   padding: 1rem;
   vertical-align: top;
   background: #74849a;
   color: white;
+  text-align: center;
 }
 
 .settings_container thead tr {
@@ -290,6 +312,8 @@ table tbody tr:nth-child(even) {
 
 .settings_container .overlay_contents {
   margin: 1rem;
+  font-family: 0.8rem;
+  color: #333;
 }
 
 .drop_down {
@@ -315,8 +339,8 @@ table tbody tr:nth-child(even) {
 }
 
 .panel {
-  font-size: 0.7rem;
-  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.8rem;
+  font-family: 'Consolas', 'Courier New', Courier, monospace;
 }
 
 .console_output {
@@ -370,6 +394,8 @@ table tbody tr:nth-child(even) {
   -webkit-transition: 0.5s ease all;
   transition: 0.5s ease all;
   color: #999;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 .rtl .input_group .group_label, .rtl .select_group .group_label {
@@ -394,6 +420,7 @@ body:not(.rtl) .input_group .group_label, body:not(.rtl) .select_group .group_la
   width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .input_group input:hover, .input_group select:hover, .select_group input:hover, .select_group select:hover {

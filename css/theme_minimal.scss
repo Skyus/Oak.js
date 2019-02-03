@@ -196,4 +196,6 @@ $console_output: $foreground;
 $console_success: $foreground;
 $console_fail: $foreground;
 
+$overlay_container_border: $foreground 2px solid;
+
 @import "theme_template";

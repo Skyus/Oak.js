@@ -13,7 +13,7 @@
 }
 
 #editor_area .ace_string {
-  color: #D14;
+  color: #FF5C5C;
 }
 
 #editor_area .ace_variable.ace_class {
@@ -66,16 +66,12 @@
   color: black;
 }
 
-#editor_area.ace_focus .ace_marker-layer .ace_active-line {
-  background: #ffffcc;
-}
-
 #editor_area .ace_marker-layer .ace_active-line {
-  background: whitesmoke;
+  background: rgba(255, 255, 128, 0.2) !important;
 }
 
 #editor_area .ace_marker-layer .ace_selection {
-  background: #b5d5ff;
+  background: rgba(181, 213, 255, 0.2) !important;
 }
 
 #editor_area .ace-github.ace_multiselect .ace_selection.ace_start {
