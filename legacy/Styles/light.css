@@ -1,0 +1,240 @@
+.toast {
+    background-color: #63758d;
+    color: white;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+
+.toast a {
+    color: #9eb2d0;
+}
+
+.cross {
+    background-image: url(../Images/closeDark.png);
+}
+
+main.helpMain {
+    padding: 2em;
+    background: #eee;
+    color: #333;
+}
+
+header {
+    background-color: #74849a;
+}
+
+header a, header > div span, header select {
+    background: #526681;
+    color: #ddd;
+}
+
+header a:hover, header > div span:hover {
+    background-color: #63758d;
+    color: white;
+}
+
+a + .dropdown {
+    background: #eee;
+}
+
+/* Mains */
+main > aside, footer {
+    background-color: #ddd;
+}
+
+section {
+    background-color: #eee;
+}
+
+section > aside > textarea {
+    background-color: #f2f2f2;
+    color: #444;
+}
+
+/* Side */
+.optionsTabs > div {
+    background: #ccc;
+    color: #666;
+}
+
+.optionsTabs > div:hover {
+    background: #d3d3d3;
+    color: #444;
+}
+
+.optionsTabs > div.selected {
+    background: transparent;
+    color: #333;
+}
+
+main > aside span {
+    color: #444;
+}
+
+main > aside select, main > aside input {
+    background: #ccc;
+    color: #333;
+}
+
+button {
+    background: #526681;
+    color: #ccc;
+}
+
+button:hover {
+    background: #7c8ea6;
+    color: #fff;
+}
+
+/* Resizers */
+.grabberX, .grabberY {
+    background-color: #ccc;
+}
+
+/* Tabs */
+main nav {
+    background-color: #ddd;
+    border-bottom: #7c8ea6 2px solid;
+}
+
+main nav > div {
+    color: #999;
+    background-color: #eee;
+    border-color: #ccc;
+}
+
+main nav > div:hover {
+    background: white;
+    color: #333;
+}
+
+main nav > div.selected {
+    background-color: #7c8ea6;
+    color: #eee;
+}
+
+main nav > div > div {
+    background-image: url(../Images/closeLight.png);
+}
+
+main nav > div.selected > div {
+    background-image: url(../Images/closeDark.png);
+}
+
+/* Navigation Tabs Scrollbar */
+main nav::-webkit-scrollbar {
+    height: 6px;
+    margin-bottom: 8px;
+    display: none;
+    background: transparent;
+}
+
+main nav:hover::-webkit-scrollbar {
+    display: block;
+}
+ 
+main nav::-webkit-scrollbar-track {
+    background: transparent;
+}
+ 
+main nav::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    height: 3px;
+}
+
+hr {
+    background: #999;
+}
+
+/* Table */
+table select {
+    background: transparent;
+}
+
+tr {
+    background: #eee;
+    color: #333;
+}
+
+tr.alt, thead > tr, table select {
+    background: #ddd;
+    color: #555;
+}
+
+header > div > div {
+    background: #ddd;
+}
+
+header > div > div a, header > div > div label {
+    color: #333;
+}
+
+header > div > div > a:hover, header > div > div > label:hover {
+    background: #7c8ea6;
+    color: #fff;
+}
+
+.tooltip {
+	color: white;
+	background: #333;
+}
+
+.tooltip::before {
+    border-color:  transparent transparent #333 transparent;
+}
+
+#noTab {
+    background: #ddd;
+}
+
+#noTab p {
+    color: #666;
+}
+
+.edited {
+    background: #ec6;
+    color: black;
+}
+
+.edited.alt {
+    background: #ca4;
+    color: black;
+}
+
+.justEdited {
+    background: #88c888;
+    color: black;
+}
+
+.justEdited.alt {
+    background: #66a666;
+    color: black;
+}
+
+#console span.error {
+    color: #900;
+}
+
+#console span.success {
+    color: #080;
+}
+
+#console span.warning {
+    color: #960;
+}
+
+.overlay > div {
+    background: #f9f9f9;
+}
+
+.overlay .header, .overlay .hotkeyCapture {
+    background: #526681;
+    color: white;
+}
+
+.overlay input, .overlay button, .overlay select {
+    border: 1px solid #eee;
+}
+
+.ace-oak .ace_gutter {background: #ebebeb;color: #333;overflow: hidden;}.ace-oak .ace_print-margin {width: 1px;background: #e8e8e8;}.ace-oak {background-color: #FFFFFF;color: black;}.ace-oak .ace_identifier {color: black;}.ace-oak .ace_keyword {color: #0000FF;}.ace-oak .ace_numeric {color: black;}.ace-oak .ace_storage {color: #11B7BE;}.ace-oak .ace_keyword.ace_operator,.ace-oak .ace_lparen,.ace-oak .ace_rparen,.ace-oak .ace_punctuation {color: #808080;}.ace-oak .ace_set.ace_statement {color: #0000FF;text-decoration: underline;}.ace-oak .ace_cursor {color: black;}.ace-oak .ace_invisible {color: rgb(191, 191, 191);}.ace-oak .ace_constant.ace_buildin {color: rgb(88, 72, 246);}.ace-oak .ace_constant.ace_language {color: #979797;}.ace-oak .ace_constant.ace_library {color: rgb(6, 150, 14);}.ace-oak .ace_invalid {background-color: rgb(153, 0, 0);color: white;}.ace-oak .ace_support.ace_function {color: #FF00FF;}.ace-oak .ace_support.ace_constant {color: rgb(6, 150, 14);}.ace-oak .ace_class {color: #008080;}.ace-oak .ace_support.ace_other {color: #6D79DE;}.ace-oak .ace_variable.ace_parameter {font-style: italic;color: #FD971F;}.ace-oak .ace_comment {font-style: italic; color: #008000;}.ace-oak .ace_constant.ace_numeric {color: black;}.ace-oak .ace_variable {color: rgb(49, 132, 149);}.ace-oak .ace_xml-pe {color: rgb(104, 104, 91);}.ace-oak .ace_support.ace_storedprocedure {color: #800000;}.ace-oak .ace_heading {color: rgb(12, 7, 255);}.ace-oak .ace_list {color: rgb(185, 6, 144);}.ace-oak .ace_marker-layer .ace_selection {background: rgb(181, 213, 255);}.ace-oak .ace_marker-layer .ace_step {background: rgb(252, 255, 0);}.ace-oak .ace_marker-layer .ace_stack {background: rgb(164, 229, 101);}.ace-oak .ace_marker-layer .ace_bracket {margin: -1px 0 0 -1px;border: 1px solid rgb(192, 192, 192);}.ace-oak .ace_marker-layer .ace_active-line {background: rgba(0, 0, 0, 0.07);}.ace-oak .ace_gutter-active-line {background-color: #dcdcdc;}.ace-oak .ace_marker-layer .ace_selected-word {background: rgb(250, 250, 255);border: 1px solid rgb(200, 200, 250);}.ace-oak .ace_meta.ace_tag {color: #0000FF;}.ace-oak .ace_string.ace_regex {color: #FF0000;}.ace-oak .ace_string {color: #FF0000;}.ace-oak .ace_entity.ace_other.ace_attribute-name {color: #994409;}.ace-oak .ace_indent-guide {background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd1/w11/gAAAABJRU5ErkJggg==") right repeat-y;}
