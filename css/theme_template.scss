@@ -524,3 +524,19 @@ table {
         width: auto;
     }
 }
+
+.devlist, .translatorlist {
+	a {
+		color: $about_primary;
+    }
+    
+	p {
+		color: $about_secondary;
+	}
+}
+
+.about_auc {
+	p {
+		color: $about_secondary;
+	}
+}

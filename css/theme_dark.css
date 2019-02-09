@@ -556,6 +556,18 @@ body:not(.rtl) .input_group select, body:not(.rtl) .select_group select {
   width: auto;
 }
 
+.devlist a, .translatorlist a {
+  color: #eee;
+}
+
+.devlist p, .translatorlist p {
+  color: #bbb;
+}
+
+.about_auc p {
+  color: #bbb;
+}
+
 #editor_area {
   background: #333;
   color: #eee;

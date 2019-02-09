@@ -680,6 +680,18 @@ body:not(.rtl) .input_group select, body:not(.rtl) .select_group select {
   width: auto;
 }
 
+.devlist a, .translatorlist a {
+  color: #fff;
+}
+
+.devlist p, .translatorlist p {
+  color: #fff;
+}
+
+.about_auc p {
+  color: #fff;
+}
+
 .navigation {
   border-bottom: 3px solid #fff;
 }

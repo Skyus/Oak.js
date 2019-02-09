@@ -201,6 +201,9 @@ $console_fail: $foreground;
 
 $overlay_container_border: $foreground 2px solid;
 
+$about_primary: $foreground;
+$about_secondary: $foreground;
+
 @import "theme_template";
 
 .navigation {
