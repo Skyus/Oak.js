@@ -255,9 +255,9 @@ $radius: 4px;
 }
 
 .button {
-	width: calc(100% - 0.4rem);
-	padding: 0.6rem;
-	margin: 0.2rem;
+	width: calc(100% - 1.0rem);
+	padding: 0.8rem;
+	margin: 0.5rem;
 	font-size: 0.7rem;
 }
 
@@ -346,11 +346,13 @@ input[type=file] {
 	a {
 		vertical-align: top;
 		width: 50%;
+		box-sizing: border-box;
+		padding: 0 1rem;
 		font-size: 1rem;
 		text-decoration: none;
 		box-sizing: border-box;
 		display: inline-block;
-		height: 7rem;
+		height: 8rem;
 	}
 
 	h4 {
@@ -370,12 +372,13 @@ input[type=file] {
 		margin: 0;
 		padding: 0;
 		padding-top: 0.2rem;
+		text-align: justify;
 	}
 
 	img {
 		float: left;
 		margin-right: 1rem;
-		height: 6rem;
+		height: 7rem;
 		border-radius: 8px;
 		box-shadow: 0 1px 4px rgba(0,0,0,0.5);
 	}
@@ -386,19 +389,12 @@ input[type=file] {
 	width: 33.33%;
 }
 
-.about_auc {
-	margin: 4rem;
-	height: 6rem;
-
-	img {
-		float: left;
-		height: 6rem;
-		padding-right: 2rem;
-	}
-
-	p {
-		font-size: 1.2rem;
-		padding: 0 1rem;
-		text-align: justify;
-	}
+.floating_close {
+	position: fixed;
+	top:  0.5rem;
+	right:0.5rem;
+	box-sizing: border-box;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
 }

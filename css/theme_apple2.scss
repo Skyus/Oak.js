@@ -1,6 +1,10 @@
 $foreground: #0f0;
 $background: #000;
 
+$closeimg_float: url(../images/closeLight.png);
+$closeimg: url(../images/closeLight.png);
+$imgfilter: sepia(100%) saturate(500%) brightness(70%) hue-rotate(70deg);
+
 @import "theme_minimal";
 
 * {

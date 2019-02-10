@@ -74,9 +74,9 @@ body {
     }
 
     div {
-        background-image: url(../images/icons/close.svg);
+        background-image: $closeimg;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 0.5rem;
         transition: 0.5s ease opacity;
         opacity: 0.3;
 
@@ -191,10 +191,20 @@ table {
 }
 
 .oak_logo {
-    background-image: url(../images/icon.png);
-    background-size: 40%;
-    background-repeat: no-repeat;
-    background-position: center;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-image: url(../images/icon.png);
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 40px;
+        height: 40px;
+        box-sizing: border-box;
+        filter: $imgfilter;
+    }
 
     width: 40px;
     height: 40px;
@@ -329,14 +339,14 @@ table {
     box-shadow: $shadow_hover;
 
     li {
-        background-color: #eee;
+        background-color: $dropdown_bg;
         border-left: 4px solid $primary_color;
-        color: #999;
+        color: $dropdown_text;
 
         &:hover {
-            background-color: #ddd;
+            background-color: $dropdown_bg_hover;
             border-left-color: $primary_color_dark;
-            color: #666;
+            color: $dropdown_text_hover;
         }
 
         &:last-of-type {
@@ -535,8 +545,17 @@ table {
 	}
 }
 
-.about_auc {
-	p {
-		color: $about_secondary;
-	}
+.floating_close {
+    border: 2px solid $button_text;
+    background-color: $button_back;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1rem;
+    cursor: pointer;
+    color: $button_text;
+    background-image: $closeimg_float;
+}
+
+.buttons_right {
+    filter: $imgfilter;
 }

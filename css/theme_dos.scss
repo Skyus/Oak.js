@@ -1,6 +1,10 @@
 $foreground: #fff;
 $background: #000;
 
+$closeimg_float: url(../images/closeLight.png);
+$closeimg: url(../images/closeLight.png);
+$imgfilter: none;
+
 @import "theme_minimal";
 
 * {

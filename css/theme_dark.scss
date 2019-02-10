@@ -81,5 +81,14 @@ $overlay_container_border: none;
 $about_primary: #eee;
 $about_secondary: #bbb;
 
+$dropdown_text: #fff;
+$dropdown_text_hover: #eee;
+$dropdown_bg: #333;
+$dropdown_bg_hover: #666;
+
+$closeimg_float: url(../images/closeDark.png);
+$closeimg: url(../images/closeDark.png);
+$imgfilter: none;
+
 @import "theme_template";
 @import "theme_ace_dark";

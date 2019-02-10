@@ -193,16 +193,16 @@ body {
 }
 
 .page_tabs li.selected {
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   border-top-color: #000;
   font-weight: bold;
 }
 
 .page_tabs div {
-  background-image: url(../images/icons/close.svg);
+  background-image: url(../images/closeLight.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 0.5rem;
   -webkit-transition: 0.5s ease opacity;
   transition: 0.5s ease opacity;
   opacity: 0.3;
@@ -272,8 +272,8 @@ table tbody tr:nth-child(even) {
 }
 
 .panel_tabs li.selected {
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   border-top-color: #000;
 }
 
@@ -313,6 +313,19 @@ table tbody tr:nth-child(even) {
 }
 
 .oak_logo {
+  width: 40px;
+  height: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.5s ease background-size;
+  transition: 0.5s ease background-size;
+}
+
+.oak_logo::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
   background-image: url(../images/icon.png);
   background-size: 40%;
   background-repeat: no-repeat;
@@ -321,8 +334,8 @@ table tbody tr:nth-child(even) {
   height: 40px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-transition: 0.5s ease background-size;
-  transition: 0.5s ease background-size;
+  -webkit-filter: none;
+          filter: none;
 }
 
 .oak_logo:hover {
@@ -466,15 +479,15 @@ table tbody tr:nth-child(even) {
 }
 
 .drop_down li {
-  background-color: #eee;
+  background-color: #000;
   border-left: 4px solid #000;
-  color: #999;
+  color: #fff;
 }
 
 .drop_down li:hover {
-  background-color: #ddd;
+  background-color: #fff;
   border-left-color: #000;
-  color: #666;
+  color: #000;
 }
 
 .drop_down li:last-of-type {
@@ -557,7 +570,7 @@ body:not(.rtl) .input_group .group_label, body:not(.rtl) .select_group .group_la
   font-size: 0.7rem;
   -webkit-transition: 0.5s ease all;
   transition: 0.5s ease all;
-  border: 2px solid #000;
+  border: 2px solid #fff;
   color: #fff;
   background-color: #000;
   width: 100%;
@@ -570,13 +583,13 @@ body:not(.rtl) .input_group .group_label, body:not(.rtl) .select_group .group_la
 .input_group input:hover, .input_group select:hover, .select_group input:hover, .select_group select:hover {
   background-color: #fff;
   background-color: #000;
-  border-color: #000;
+  border-color: #fff;
 }
 
 .input_group input:focus, .input_group select:focus, .select_group input:focus, .select_group select:focus {
   background-color: #fff;
   background-color: #000;
-  border-color: #000;
+  border-color: #fff;
 }
 
 body.rtl .input_group input, body.rtl .input_group select, body.rtl .select_group input, body.rtl .select_group select {
@@ -688,8 +701,20 @@ body:not(.rtl) .input_group select, body:not(.rtl) .select_group select {
   color: #fff;
 }
 
-.about_auc p {
-  color: #fff;
+.floating_close {
+  border: 2px solid #000;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1rem;
+  cursor: pointer;
+  color: #000;
+  background-image: url(../images/closeLight.png);
+}
+
+.buttons_right {
+  -webkit-filter: none;
+          filter: none;
 }
 
 .navigation {

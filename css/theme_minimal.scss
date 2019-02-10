@@ -134,8 +134,8 @@ $tab_back: $panel_back_color;
 $tab_reg: $tab_back;
 $tab_reg_color: $panel_color;
 $tab_reg_border: $primary_color_dark;
-$tab_sel: $panel_back_color;
-$tab_sel_color: $tab_reg_color;
+$tab_sel: $foreground;
+$tab_sel_color: $background;
 $tab_sel_border: $primary_color;
 
 $table_back: $panel_back_color;
@@ -163,15 +163,15 @@ $label_color: $foreground;
 
 $input_text_color: $panel_color;
 $input_back: $panel_back_color;
-$input_border_color: $panel_back_color;
+$input_border_color: $foreground;
 
 $input_hover_text_color: $input_text_color;
 $input_hover_back: $input_back;
-$input_hover_border_color: $input_border_color;
+$input_hover_border_color: $foreground;
 
 $input_focus_text_color: $input_text_color;
 $input_focus_back: $input_back;
-$input_focus_border_color: $input_border_color;
+$input_focus_border_color: $foreground;
 
 $settings_title_text: $foreground;
 
@@ -203,6 +203,11 @@ $overlay_container_border: $foreground 2px solid;
 
 $about_primary: $foreground;
 $about_secondary: $foreground;
+
+$dropdown_text: $foreground;
+$dropdown_text_hover: $background;
+$dropdown_bg: $background;
+$dropdown_bg_hover: $foreground;
 
 @import "theme_template";
 

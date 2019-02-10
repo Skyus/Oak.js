@@ -76,9 +76,9 @@ body {
 }
 
 .page_tabs div {
-  background-image: url(../images/icons/close.svg);
+  background-image: url(../images/closeLight.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 0.5rem;
   -webkit-transition: 0.5s ease opacity;
   transition: 0.5s ease opacity;
   opacity: 0.3;
@@ -189,6 +189,19 @@ table tbody tr:nth-child(even) {
 }
 
 .oak_logo {
+  width: 40px;
+  height: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.5s ease background-size;
+  transition: 0.5s ease background-size;
+}
+
+.oak_logo::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
   background-image: url(../images/icon.png);
   background-size: 40%;
   background-repeat: no-repeat;
@@ -197,8 +210,8 @@ table tbody tr:nth-child(even) {
   height: 40px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-transition: 0.5s ease background-size;
-  transition: 0.5s ease background-size;
+  -webkit-filter: none;
+          filter: none;
 }
 
 .oak_logo:hover {
@@ -348,7 +361,7 @@ table tbody tr:nth-child(even) {
 }
 
 .drop_down li:hover {
-  background-color: #ddd;
+  background-color: #ccc;
   border-left-color: #67778e;
   color: #666;
 }
@@ -564,8 +577,20 @@ body:not(.rtl) .input_group select, body:not(.rtl) .select_group select {
   color: #666;
 }
 
-.about_auc p {
-  color: #666;
+.floating_close {
+  border: 2px solid white;
+  background-color: #74849a;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1rem;
+  cursor: pointer;
+  color: white;
+  background-image: url(../images/closeDark.png);
+}
+
+.buttons_right {
+  -webkit-filter: none;
+          filter: none;
 }
 
 #editor_area {
