@@ -408,4 +408,12 @@ input[type=file] {
   height: 3rem;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 980px) {
+  .devlist a, .translatorlist a {
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+  }
+}
 /*# sourceMappingURL=app.css.map */
