@@ -357,7 +357,7 @@ table tbody tr:nth-child(even) {
 .drop_down li {
   background-color: #eee;
   border-left: 4px solid #74849a;
-  color: #999;
+  color: #333;
 }
 
 .drop_down li:hover {
